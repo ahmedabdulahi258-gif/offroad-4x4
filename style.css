@@ -3,7 +3,7 @@ canvas{display:block;touch-action:none}
 #hud{position:fixed;top:env(safe-area-inset-top,0);left:0;right:0;padding:10px 14px;display:flex;gap:14px;flex-wrap:wrap;font-weight:700;text-shadow:0 2px 4px #000;pointer-events:none}
 #speed{font-size:28px}#mode{color:#ffd23f;font-size:20px;align-self:center}#cp,#time,#best{font-size:18px;align-self:center}
 #msg{position:fixed;top:40%;left:0;right:0;text-align:center;font-size:36px;color:#7fff7f}
-#start{position:fixed;inset:0;background:radial-gradient(#3a5f2bdd,#111e);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;z-index:5;padding:20px}
+#start{position:fixed;inset:0;background:radial-gradient(#8a6a3add,#111e);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;z-index:5;padding:20px}
 #start h1{font-size:48px;margin:0 0 10px;color:#ffd23f}
 #play{font-size:36px;padding:18px 60px;border:0;border-radius:16px;background:#ff7b00;color:#fff;font-weight:800}
 #touch{display:none}
