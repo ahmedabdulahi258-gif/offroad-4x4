@@ -1,0 +1,15 @@
+html,body{margin:0;height:100%;overflow:hidden;background:#000;touch-action:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;font-family:system-ui,sans-serif;color:#fff}
+canvas{display:block;touch-action:none}
+#hud{position:fixed;top:env(safe-area-inset-top,0);left:0;right:0;padding:10px 14px;display:flex;gap:14px;flex-wrap:wrap;font-weight:700;text-shadow:0 2px 4px #000;pointer-events:none}
+#speed{font-size:28px}#mode{color:#ffd23f;font-size:20px;align-self:center}#cp,#time,#best{font-size:18px;align-self:center}
+#msg{position:fixed;top:40%;left:0;right:0;text-align:center;font-size:36px;color:#7fff7f}
+#start{position:fixed;inset:0;background:radial-gradient(#3a5f2bdd,#111e);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;z-index:5;padding:20px}
+#start h1{font-size:48px;margin:0 0 10px;color:#ffd23f}
+#play{font-size:36px;padding:18px 60px;border:0;border-radius:16px;background:#ff7b00;color:#fff;font-weight:800}
+#touch{display:none}
+body.touch #touch{display:block}
+.grp{position:fixed;display:flex;gap:12px;bottom:calc(20px + env(safe-area-inset-bottom,0px))}
+.left{left:16px}.right{right:16px}.top{top:calc(60px + env(safe-area-inset-top,0px));right:12px;bottom:auto}
+.grp button{width:78px;height:78px;border-radius:50%;border:2px solid #fff8;background:#0006;color:#fff;font-size:20px;font-weight:700;touch-action:none}
+.top button{width:56px;height:56px;font-size:14px}
+.grp button.on{background:#ff7b00aa}.gas{width:92px!important;height:92px!important}

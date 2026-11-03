@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Offroad 4x4</title><link rel="stylesheet" href="style.css">
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","cannon-es":"https://cdn.jsdelivr.net/npm/cannon-es@0.20.0/dist/cannon-es.js"}}</script>
+</head><body>
+<div id="hud"><div id="speed">0 <small>mph</small></div><div id="mode">4WD</div><div id="cp">CP 0/5</div><div id="time">0.00s</div><div id="best">Best: --</div><div id="msg"></div></div>
+<div id="start"><h1>OFFROAD 4x4</h1><p>Hit all 5 glowing checkpoints as fast as you can.<br>WASD/Arrows drive · Space handbrake · F 4WD/2WD · G low gear · R reset</p><button id="play">PLAY</button></div>
+<div id="touch">
+ <div class="grp left"><button data-k="left">◀</button><button data-k="right">▶</button></div>
+ <div class="grp top"><button data-a="awd">4WD</button><button data-a="low">LOW</button><button data-a="reset">⟲</button><button data-k="hb">HB</button></div>
+ <div class="grp right"><button data-k="brake">BRK</button><button data-k="gas" class="gas">GAS</button></div>
+</div>
+<script type="module" src="game.js"></script></body></html>
